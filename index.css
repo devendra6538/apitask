@@ -1,0 +1,59 @@
+body{
+    background-color: #1d3557 /*#efefef*/;
+
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    gap: 30px;
+    list-style: none;
+}
+img {
+    width: 10rem;
+    position: relative;
+    
+}
+li {
+    padding: 10px;
+    border: solid;
+    width: 500px;
+    background-color: #fff;
+    gap: 20px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+}
+span {
+    color: red;
+    background-color: #fff;
+    content: "$";
+    
+}
+span::before {
+    color: red;
+    background-color: #fff;
+    content: " Price = $";
+    
+}
+
+button {
+    border-radius: 15px;
+    padding: 5px;
+    background-color: darkgoldenrod;
+    
+}
+button:hover {
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #f1faee;
+    
+}
+
+
+
+li:hover {
+    background-color: #afafaf;
+}
